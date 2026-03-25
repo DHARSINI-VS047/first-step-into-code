@@ -1,0 +1,20 @@
+student_intro.c
+#include <stdio.h>
+
+int main() {
+    char name[] = "Dharsini";
+    char dept[] = "ECE";
+    int year = 1;
+
+    printf("Hello! Welcome to my first GitHub project.\n\n");
+
+    printf("Student Details:\n");
+    printf("Name: %s\n", name);
+    printf("Department: %s\n", dept);
+    printf("Year: %d\n\n", year);
+
+    printf("About Me:\n");
+    printf("I am learning coding step by step and improving my skills.\n");
+
+    return 0;
+}
